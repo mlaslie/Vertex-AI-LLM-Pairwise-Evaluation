@@ -1,0 +1,13 @@
+# Pairwise Summarization Evaluation
+
+# Google Cloud Vertex AI SDK — includes Gen AI evaluation service
+google-cloud-aiplatform[evaluation]>=1.114.0
+
+# Google GenAI SDK
+google-genai
+
+# OpenAI Python SDK
+openai>=1.0.0
+
+# Data handling
+pandas>=2.0.0
