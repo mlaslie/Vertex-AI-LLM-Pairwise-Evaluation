@@ -21,7 +21,8 @@ gcloud config set project YOUR_PROJECT_ID
 ```
 
 #### Set OpenAI API Key
-```export OPENAI_API_KEY='your-api-key-here'
+```
+export OPENAI_API_KEY='your-api-key-here'
 export GCP_PROJECT_ID='your-project-id'
 ```
 
@@ -30,7 +31,9 @@ export GCP_PROJECT_ID='your-project-id'
  - Ensure the CSV contains the columns required by your prompt templates (typically a prompt column).
 
 ## Usage
-```python summarization_pairwise_eval.py```
+```
+python summarization_pairwise_eval.py
+```
 
 ## Results
  - Printed to the console (Win/Loss/Tie rates).
